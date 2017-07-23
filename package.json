@@ -1,0 +1,26 @@
+{
+  "name": "yo-duck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/app.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "./node_modules/gulp/bin/gulp.js dev",
+    "test": "gulp test"
+  },
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-elm": "^0.7.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-typescript": "^3.2.1",
+    "run-sequence": "^2.0.0",
+    "typescript": "^2.4.2"
+  }
+}
